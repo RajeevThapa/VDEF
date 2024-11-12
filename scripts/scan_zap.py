@@ -8,7 +8,7 @@ from zapv2 import ZAPv2
 
 def start_zap_daemon():
     """Start ZAP in daemon mode with API key disabled."""
-    zap_command = "zaproxy -daemon -port 8081 -config api.disablekey=true"
+    zap_command = "zaproxy -daemon -port 8080 -config api.disablekey=true"
     
     try:
         # Start ZAP as a background process without waiting for stdout/stderr
@@ -18,7 +18,7 @@ def start_zap_daemon():
         time.sleep(20)  # Give ZAP some time to initialize (increase if needed)
         
         # Check if ZAP is running by querying the API endpoint
-        zap_url = "http://localhost:8081"
+        zap_url = "http://localhost:8080"
         response = requests.get(zap_url)
         
         if response.status_code == 200:

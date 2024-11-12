@@ -1,0 +1,5 @@
+# Ignore Notes.md file
+Notes.md
+
+# Ignore virtual environment folder
+venv/

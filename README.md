@@ -1,7 +1,7 @@
 # Vulnerability Detection and Exploitation Framework (VDEF)
 
 ## Overview
-VDEF is a framework designed for vulnerability detection, exploitation, and reporting. The tools like Nmap, Nikto, and OWASP ZAP for vulnerability scans, and Metasploit for exploitation. This repo consists of Python scripts designed to vulnerability scanning and exploitation and reporting. It utilizes tools like Nmap, OWASP ZAP, Nikto and Metasploit to identify vulnerabilities and generate a report. For the automation part we have another repo which is modfied to work with Jenkins. The Jenkinsfile is used to automate the entire workflow on schedule or on demand. Link: `https://github.com/RajeevThapa/AVDEF`.
+VDEF is a framework designed for vulnerability detection, exploitation, and reporting. The tools like Nmap, Nikto, and OWASP ZAP for vulnerability scans, and Metasploit for exploitation. This repo consists of Python scripts designed to vulnerability scanning and exploitation and reporting. It utilizes tools like Nmap, OWASP ZAP, Nikto and Metasploit to identify vulnerabilities and generate a report. For the automation part we have another repo which is modfied to work with Jenkins. The Jenkinsfile is used to automate the entire workflow on schedule or on demand. Link: [`https://github.com/RajeevThapa/AVDEF`.](https://github.com/RajeevThapa/AVDEF)
 
 ## Project Structure
 

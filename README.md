@@ -56,17 +56,21 @@ After report generation, **notify.py** sends the summary to the team via email.
 
 ### scan_nmap.py
 Performs a vulnerability scan using Nmap. Saves the scan results in the `scans/nmap/` directory.
+![Screenshot from 2024-11-12 18-01-36](https://github.com/user-attachments/assets/5c4beb60-c065-496a-9fb7-ba84c29c6791)
 
 ### scan_zap.py
 - Starts OWASP ZAP in daemon mode.
 - Passively or actively scans the target, as configured.
 - Saves results to `scans/zap/`.
+![Screenshot from 2024-11-12 18-02-08](https://github.com/user-attachments/assets/2b474ba5-57ea-463c-8635-2e3377a9ff49)
 
 ### scan_nikto.py
 Executes Nikto for scanning web servers and identifying potential issues. Results are saved in `scans/nikto/`.
+![Screenshot from 2024-11-12 18-01-52](https://github.com/user-attachments/assets/69225328-c20b-42af-87fb-8a9ef137ec1e)
 
 ### exploit_metasploit.py
 Runs Metasploit with pre-defined commands in `metasploit.rc` to exploit vulnerabilities on the target.
+![Screenshot from 2024-11-12 18-03-19](https://github.com/user-attachments/assets/b2c29a9c-7e7a-468e-aca3-bd9254f05f83)
 
 ### report_generator.py
 Converts scan results from Nmap, ZAP, and Nikto into a summarized markdown report, saved in `scans/reports/summary_report.md`.
